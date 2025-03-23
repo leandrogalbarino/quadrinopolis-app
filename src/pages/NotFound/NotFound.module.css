@@ -1,0 +1,16 @@
+.container {
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  max-width: 800px;
+  justify-content: center;
+}
+
+.texto{
+  font-size: 20px;
+  padding:10px;
+  text-transform: uppercase;
+}

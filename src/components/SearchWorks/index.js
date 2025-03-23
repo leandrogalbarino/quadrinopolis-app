@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 import Container from "../Container";
-import styles from "./SearchWorks.module.css";
 import works from "../../json/works.js";
+import WorkLink from "../WorkLink/index.js";
 
 function SearchWorks() {
   const [searchParams] = useSearchParams();
@@ -15,7 +15,7 @@ function SearchWorks() {
   return (
     <Container>
       {
-        search === "" ? works.map((work) => <Work />) : filterWorks(works).map((work) => <Work />)
+        search === "" ? works.map((work) => <WorkLink work={work} />) : filterWorks(works).map((work) => <WorkLink work={work}  />)
       }
     </Container>
   );

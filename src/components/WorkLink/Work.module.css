@@ -1,0 +1,22 @@
+.work {
+  display: block;
+  width: 210px;
+  height: 300px;
+  padding: 10px;
+}
+
+.work img{
+  width: 210px;
+  height: 300px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.595);
+  transition: scale 0.3s, box-shadow 0.1s;
+
+}
+
+.work img:hover{
+  box-shadow: 0px 0px 10px blueviolet;
+  scale:1.1;
+  cursor: pointer;
+}

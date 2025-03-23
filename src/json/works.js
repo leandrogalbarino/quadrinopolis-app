@@ -1,6 +1,7 @@
 let works = [{
+  id: 1,
   cover: 'solo-leveling.jpg',
-  name: 'solo-leveling',
+  name: 'solo leveling',
   author: 'Chu-Gong',
   synopsis: `
     solo leveling sinopse!
@@ -20,6 +21,7 @@ let works = [{
   }]
 },
 {
+  id: 2,
   cover: 'omv.webp',
   name: 'omv',
   author: 'Sing Shong',
@@ -42,6 +44,7 @@ let works = [{
   }]
 },
 {
+  id: 3,
   cover: 'lookism.jpg',
   name: 'lookism',
   author: 'Park Tae Jun',
