@@ -1,0 +1,49 @@
+.container{
+  background-image: linear-gradient(rgb(106, 30, 130), rgb(208, 18, 132));
+  height: 100px;
+  margin: 0px;
+  display: flex;
+  box-shadow: 0 0  15px rgba(0, 0, 0, 0.395);
+}
+
+.header {
+  margin: 0 auto;
+  padding: 0px 20px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_link{
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.login {
+  background-color: pink;
+  width: 100px;
+  height: 30px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 20px;
+  background-color: transparent;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.33);
+}
+
+.login_link{
+  text-decoration: none;
+  color: white;
+}

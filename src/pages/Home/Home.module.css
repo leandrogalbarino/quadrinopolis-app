@@ -1,0 +1,132 @@
+/* CONTAINER = OBRAS + LIVRINHO */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo_img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.logo h2 {
+  color: rgb(81, 17, 127);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTAINER = PESQUISAR + BOTAO */
+.search {
+  align-self: center;
+}
+
+.search_form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.436);
+}
+
+.search_form input {
+  outline: none;
+  border: none;
+}
+
+.search_button {
+  padding-left: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_button_img {
+  width: 100%;
+}
+
+.search__nothing{
+margin: 0 auto;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.search__nothing p{
+  font-size: 16px;
+  color: hsl(0, 0%, 43%);
+}
+.search__nothing a{
+  color: blueviolet;
+}
+
+
+/* CATALOGO OBRAS */
+/* .catalog {
+  max-width: 700px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-around;
+
+} */
+
+.catalog__link-work {
+  display: block;
+  width: 210px;
+  height: 300px;
+  padding: 10px;
+
+}
+
+.catalog__img {
+  width: 210px;
+  height: 300px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.595);
+  transition: scale 0.3s, box-shadow 0.1s;
+}
+
+.catalog__img:hover {
+  box-shadow: 0px 0px 10px blueviolet;
+  scale:1.1;
+  cursor: pointer;
+}
+
+
+/* Publicar Obra */
+.publish {
+  max-width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publish__link {
+  display: block;
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid blueviolet;
+  text-decoration: none;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  transition: background-color 0.5s;
+}
+
+.publish__link:hover {
+  background-color: rgb(237, 236, 236);
+}
+
