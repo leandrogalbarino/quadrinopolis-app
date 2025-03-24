@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
-import styles from "./Home.module.css";
+import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    
+    <footer className={styles.footer}>
+      <span>Todos os diretos reservados</span>
+    </footer>
   );
 }
 

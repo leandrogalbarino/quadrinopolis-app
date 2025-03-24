@@ -8,6 +8,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={ <Home />}/>
         <Route path="/works/:id" element={<Work />} />
+        <Route path="/works/:id/:chapter" element={<NotFound />} />
         <Route path="/*" element={<NotFound/>} />
       </Routes>
     </BrowserRouter>

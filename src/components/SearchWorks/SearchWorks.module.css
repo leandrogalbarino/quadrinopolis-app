@@ -1,3 +1,14 @@
+.container {
+  margin: 0 auto;
+  margin-block: 40px;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+  justify-content: center;
+
+}
 
 .catalog__link-work {
   display: block;

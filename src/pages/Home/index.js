@@ -6,6 +6,7 @@ import Container from "../../components/Container";
 import SearchWorks from "../../components/SearchWorks";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Footer from "../../components/Footer";
 
 function Home() {
   const [search, setSearch] = useState("");
@@ -51,6 +52,7 @@ function Home() {
       </Container>
 
       <SearchWorks />
+      <Footer />
     </>
   );
 }

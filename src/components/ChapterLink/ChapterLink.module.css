@@ -1,0 +1,12 @@
+
+.chapter {
+  padding: 10px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid rgba(167, 14, 106, 0.349);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}

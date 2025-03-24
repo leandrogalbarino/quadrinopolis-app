@@ -65,6 +65,100 @@ let works = [{
     author: 'Akashi',
     comment: 'Amei essa obra que o Kuroko recomendou!'
   }]
-  }];
+}, {
+  id: 4,
+  cover: 'lookism.jpg',
+  name: 'lookism',
+  author: 'Park Tae Jun',
+  synopsis: `
+      Lorem lookism sinopse 2 
+    `,
+  chapters: 23,
+
+  comments: [{
+    author: 'Kise',
+    comment: 'muitooo boa essa obra, simplesmente sensacional!'
+  },
+  {
+    author: 'Aomine',
+    comment: 'Essa obra é melhor que jogar basquete!'
+  },
+  {
+    author: 'Akashi',
+    comment: 'Amei essa obra que o Kuroko recomendou!'
+  }]
+}, {
+  id: 5,
+  cover: 'lookism.jpg',
+  name: 'lookism',
+  author: 'Park Tae Jun',
+  synopsis: `
+        Lorem lookism sinopse 2 
+      `,
+  chapters: 23,
+
+  comments: [{
+    author: 'Kise',
+    comment: 'muitooo boa essa obra, simplesmente sensacional!'
+  },
+  {
+    author: 'Aomine',
+    comment: 'Essa obra é melhor que jogar basquete!'
+  },
+  {
+    author: 'Akashi',
+    comment: 'Amei essa obra que o Kuroko recomendou!'
+  }]
+}, {
+  id: 6,
+  cover: 'lookism.jpg',
+  name: 'lookism',
+  author: 'Park Tae Jun',
+  synopsis: `
+          Lorem lookism sinopse 2 
+        `,
+  chapters: 23,
+
+  comments: [{
+    author: 'Kise',
+    comment: 'muitooo boa essa obra, simplesmente sensacional!'
+  },
+  {
+    author: 'Aomine',
+    comment: 'Essa obra é melhor que jogar basquete!'
+  },
+  {
+    author: 'Akashi',
+    comment: 'Amei essa obra que o Kuroko recomendou!'
+  }]
+}, {
+  id: 7,
+  cover: 'lookism.jpg',
+  name: 'lookism',
+  author: 'Park Tae Jun',
+  synopsis: `
+            Lorem lookism sinopse 2 
+          `,
+  chapters: 23,
+
+  comments: [{
+    author: 'Kise',
+    comment: 'muitooo boa essa obra, simplesmente sensacional!'
+  },
+  {
+    author: 'Aomine',
+    comment: 'Essa obra é melhor que jogar basquete!'
+  },
+  {
+    author: 'Akashi',
+    comment: 'Amei essa obra que o Kuroko recomendou!'
+  }]
+}
+
+
+
+
+
+];
 
 export default works;
