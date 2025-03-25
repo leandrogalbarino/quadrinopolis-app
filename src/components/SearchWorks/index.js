@@ -15,7 +15,7 @@ function SearchWorks() {
   return (
     <section className={styles.container}>
         {
-          search === "" ? works.map((work) => <WorkLink work={work} key={work.id}/>) : filterWorks(works).map((work) => <WorkLink work={work} key={work.id} />)
+          search === "" ? works.map((work) => <WorkLink work={work} key={work.id}/>) : filterWorks(works).map((work) => <WorkLink work={work} key={`${work.id}-link`} />)
         }
     </section>
   );
