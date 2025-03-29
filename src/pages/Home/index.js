@@ -49,6 +49,8 @@ function Home() {
             />
           </form>
         </div>
+      </Container>
+
         <SearchWorks />
 
         <section className={styles.publish}>
@@ -57,7 +59,6 @@ function Home() {
           </Link>
         </section>
 
-      </Container>
 
       <Footer />
     </>
