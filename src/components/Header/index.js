@@ -10,7 +10,7 @@ function Header() {
         </div>
 
         <div className={styles.login}>
-          <Link to="/" className={styles.login_link}>Entrar</Link>
+          <Link to="/login" className={styles.login_link}>Entrar</Link>
         </div>
       </nav>
     </header>

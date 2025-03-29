@@ -1,10 +1,11 @@
-.footer{
+.footer {
   text-align: center;
-  padding:10px;
-  background-color:rgb(83, 20, 127);
+  padding: 10px;
+  background-color: rgb(208, 18, 132);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.489);
 }
 
-.footer span{
+.footer span {
   font-size: 20px;
-  color: rgb(186, 186, 186);
+  color: white;
 }

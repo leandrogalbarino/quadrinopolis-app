@@ -19,8 +19,8 @@ function Work() {
       <Header />
       <section className={styles.background}>
         <WorkInfo work={work} />
-
       </section>
+
       {/* <section className={styles.comments}>
         <div class="add-comment">
           <div class="add-comment__title">

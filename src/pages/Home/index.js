@@ -5,7 +5,7 @@ import livro from "./images/search/livro.png";
 import Container from "../../components/Container";
 import SearchWorks from "../../components/SearchWorks";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer";
 
 function Home() {
@@ -49,9 +49,16 @@ function Home() {
             />
           </form>
         </div>
+        <SearchWorks />
+
+        <section className={styles.publish}>
+          <Link to="/public" className={styles.publish_link}>
+            Publicar Obra
+          </Link>
+        </section>
+
       </Container>
 
-      <SearchWorks />
       <Footer />
     </>
   );

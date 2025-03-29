@@ -111,7 +111,7 @@ flex-direction: column;
   justify-content: center;
 }
 
-.publish__link {
+.publish_link {
   display: block;
   background-color: white;
   width: 300px;
@@ -126,7 +126,7 @@ flex-direction: column;
   transition: background-color 0.5s;
 }
 
-.publish__link:hover {
+.publish_link:hover {
   background-color: rgb(237, 236, 236);
 }
 
