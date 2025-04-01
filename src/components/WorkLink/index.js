@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./Work.module.css";
-import iconFavorite from "./images/fav.png";
+import iconFavorite from "./images/favorite.png";
 import iconUnfavorite from "./images/unfavorite.png";
 import { useFavoriteContext } from "../../contexts/Favorites";
 

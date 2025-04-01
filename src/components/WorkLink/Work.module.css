@@ -30,16 +30,16 @@
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
-  padding: 23px;
   background-color: rgba(0, 0, 0, 0.532);
   border-radius: 10px;
+  padding:3px;
+  margin: 0 17px 17px 0;
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  
   position: absolute;
-  margin: 0 17px 17px 0;
   transition: background-color .7s;
 }
 
