@@ -28,7 +28,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Container>
+      <section className={styles.container}>
         <div className={styles.logo}>
           <img src={livro} alt="livro" className={styles.logo_img} />
           <h2>Obras</h2>
@@ -49,15 +49,15 @@ function Home() {
             />
           </form>
         </div>
-      </Container>
+      </section>
 
-        <SearchWorks />
+      <SearchWorks />
 
-        <section className={styles.publish}>
-          <Link to="/public" className={styles.publish_link}>
-            Publicar Obra
-          </Link>
-        </section>
+      <section className={styles.publish}>
+        <Link to="/public" className={styles.publish_link}>
+          Publicar Obra
+        </Link>
+      </section>
 
 
       <Footer />

@@ -4,7 +4,7 @@
   padding: 0px 20px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   max-width: 800px;
-  justify-content: space-between;
+  min-height: 100vh;
+  justify-content: center;
 }

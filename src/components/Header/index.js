@@ -9,8 +9,11 @@ function Header() {
           <Link to="/" className={styles.logo_link}>Quadrinópolis</Link>
         </div>
 
-        <div className={styles.login}>
-          <Link to="/login" className={styles.login_link}>Entrar</Link>
+        <div className={styles.links}>
+          <Link to="/favorites" className={styles.link}>Favoritos</Link>
+            <Link to="/login" className={styles.link}>Entrar</Link>
+          {/* <div className={styles.login}> */}
+          {/* </div> */}
         </div>
       </nav>
     </header>

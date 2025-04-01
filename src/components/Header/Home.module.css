@@ -1,6 +1,6 @@
 .container{
   background-image: linear-gradient(rgb(106, 30, 130), rgb(208, 18, 132));
-  height: 100px;
+  height: 70px;
   margin: 0px;
   display: flex;
   box-shadow: 0 0  15px rgba(0, 0, 0, 0.395);
@@ -25,7 +25,6 @@
 
 
 .login {
-  background-color: pink;
   width: 100px;
   height: 30px;
   border-color: white;
@@ -47,3 +46,19 @@
   text-decoration: none;
   color: white;
 }
+
+.links{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: rgb(237, 236, 236);
+}
+
