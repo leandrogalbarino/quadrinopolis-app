@@ -28,36 +28,39 @@ function Home() {
   return (
     <>
       <Header />
-      <section className={styles.container}>
-        <div className={styles.logo}>
-          <img src={livro} alt="livro" className={styles.logo_img} />
-          <h2>Obras</h2>
-        </div>
-        <div className={styles.search}>
-          <form onSubmit={handleSubmit} className={styles.search_form}>
-            <button
-              type="submit"
-              className={styles.search_button}
-            >
-              <img src={lupa} alt="lupa" className={styles.search_button_img} />
-            </button>
-            <input
-              type="text"
-              placeholder="Pesquisar"
-              value={search}
-              onChange={handleChange}
-            />
-          </form>
-        </div>
-      </section>
 
-      <SearchWorks />
+      <Container>
+        <section className={styles.container}>
+          <div className={styles.logo}>
+            <img src={livro} alt="livro" className={styles.logo_img} />
+            <h2>Obras</h2>
+          </div>
+          <div className={styles.search}>
+            <form onSubmit={handleSubmit} className={styles.search_form}>
+              <button
+                type="submit"
+                className={styles.search_button}
+              >
+                <img src={lupa} alt="lupa" className={styles.search_button_img} />
+              </button>
+              <input
+                type="text"
+                placeholder="Pesquisar"
+                value={search}
+                onChange={handleChange}
+              />
+            </form>
+          </div>
+        </section>
 
-      <section className={styles.publish}>
-        <Link to="/public" className={styles.publish_link}>
-          Publicar Obra
-        </Link>
-      </section>
+        <SearchWorks />
+
+        <section className={styles.publish}>
+          <Link to="/public" className={styles.publish_link}>
+            Publicar Obra
+          </Link>
+        </section>
+      </Container>
 
 
       <Footer />

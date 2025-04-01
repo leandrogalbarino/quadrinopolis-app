@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Chapter from "./pages/Chapter";
-import FavoritesProvider from "./Context/Favorites";
+import FavoritesProvider from "./contexts/Favorites";
 import Favorites from "./pages/Favorites";
 
 function AppRoutes() {

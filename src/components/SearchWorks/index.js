@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom";
-import styles from "./SearchWorks.module.css";
 import works from "../../json/works.js";
 import WorkLink from "../WorkLink/index.js";
+import ContainerWorks from "../ContainerWorks/index.js";
 
 function SearchWorks() {
   const [searchParams] = useSearchParams();
@@ -13,11 +13,11 @@ function SearchWorks() {
   }
 
   return (
-    <section className={styles.container}>
+    <ContainerWorks>
         {
           search === "" ? works.map((work) => <WorkLink work={work} key={work.id}/>) : filterWorks(works).map((work) => <WorkLink work={work} key={`${work.id}-link`} />)
         }
-    </section>
+    </ContainerWorks>
   );
 }
 

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./Work.module.css";
 import iconFavorite from "./images/fav.png";
 import iconUnfavorite from "./images/unfavorite.png";
-import { useFavoriteContext } from "../../Context/Favorites";
+import { useFavoriteContext } from "../../contexts/Favorites";
 
 function Work({ work }) {
   const { favorite, addFavorite } = useFavoriteContext();
